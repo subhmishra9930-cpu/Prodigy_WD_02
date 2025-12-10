@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch - Time Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch-card">
+            <!-- Header -->
+            <div class="header">
+                <i class="fas fa-stopwatch"></i>
+                <h1>Stopwatch</h1>
+            </div>
+
+            <!-- Time Display -->
+            <div class="time-display">
+                <span id="minutes">00</span>
+                <span class="separator">:</span>
+                <span id="seconds">00</span>
+                <span class="separator">:</span>
+                <span id="milliseconds">00</span>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls">
+                <button id="startBtn" class="btn btn-start">
+                    <i class="fas fa-play"></i>
+                    <span>Start</span>
+                </button>
+                <button id="pauseBtn" class="btn btn-pause" disabled>
+                    <i class="fas fa-pause"></i>
+                    <span>Pause</span>
+                </button>
+                <button id="resetBtn" class="btn btn-reset">
+                    <i class="fas fa-redo"></i>
+                    <span>Reset</span>
+                </button>
+                <button id="lapBtn" class="btn btn-lap" disabled>
+                    <i class="fas fa-flag"></i>
+                    <span>Lap</span>
+                </button>
+            </div>
+
+            <!-- Additional Functions -->
+            <div class="additional-controls">
+                <button id="saveBtn" class="btn-extra btn-save" title="Save Current Time">
+                    <i class="fas fa-save"></i>
+                    <span>Save Time</span>
+                </button>
+                <button id="fullscreenBtn" class="btn-extra btn-fullscreen" title="Toggle Fullscreen">
+                    <i class="fas fa-expand"></i>
+                    <span>Fullscreen</span>
+                </button>
+                <button id="soundBtn" class="btn-extra btn-sound" title="Toggle Sound">
+                    <i class="fas fa-volume-up"></i>
+                    <span>Sound On</span>
+                </button>
+                <button id="themeBtn" class="btn-extra btn-theme" title="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                    <span>Dark Mode</span>
+                </button>
+            </div>
+
+            <!-- Lap Times Section -->
+            <div class="lap-section" id="lapSection">
+                <div class="lap-header">
+                    <h2>Lap Times</h2>
+                    <button id="clearLapsBtn" class="btn-clear">
+                        <i class="fas fa-trash"></i>
+                        Clear All
+                    </button>
+                </div>
+                <div class="lap-list" id="lapList">
+                    <div class="no-laps">
+                        <i class="fas fa-info-circle"></i>
+                        <p>No lap times recorded yet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Made by <span class="highlight">SM</span> | Task-02</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
