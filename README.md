@@ -32,6 +32,6 @@ https://subhmishra9930-cpu.github.io/Prodigy_WD_02/
 - File download functionality
 
 # Author
-Subh Kumar Mishra — Web Development Intern @Prodigy InfoTech
-Github: https://github.com/subhmishra9930-cpu
+Subh Kumar Mishra — Web Development Intern @Prodigy InfoTech<br>
+Github: https://github.com/subhmishra9930-cpu<br>
 Linkedin: https://www.linkedin.com/in/subh-kumar-mishra-76a635374/
