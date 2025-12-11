@@ -1,4 +1,4 @@
-# Prodigy_WD_02--Stopwatch
+# PRODIGY_WD_02--Stopwatch
 A modern, feature-rich stopwatch web application with a beautiful UI, multiple functionalities, and responsive design.
 # Live demo:-
 https://subhmishra9930-cpu.github.io/Prodigy_WD_02/
